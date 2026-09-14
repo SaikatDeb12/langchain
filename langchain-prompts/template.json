@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "paper_input",
+        "paper_length",
+        "paper_style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Summarize the reasearch paper titled {paper_input} with the following specifications:\n    Explaination style : {paper_style}\n    Explaination length : {paper_length}\n    1. Mahtematical details :\n        - Include relevant mathematical equations if present in the paper.\n        - Explain the mathematical concepts using simple, intuitive code snippets where applicable.\n    2. Analogies:\n        - Use relatable analogies to simplify complex ideas.\n    If certian infomation is not available in the paper, respond with \"Insufficient information vavailable\" instead of guessing.\n    Ensure the summary is clar, accurate, and aligned with the provied style and length.\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
