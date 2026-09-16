@@ -46,3 +46,6 @@ print(response)
 # parseResponse = parser.parse(response.content)
 # print(parseResponse)
 # print(response.content)
+
+# limitation :
+# structured but doesn't have validation
