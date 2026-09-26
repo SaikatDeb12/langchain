@@ -40,6 +40,6 @@ branchChain = RunnableBranch(
 # LCEL
 finalChain = generateReportChain | branchChain
 
-response = finalChain.invoke({"topic": "capture the flag (ctfs)"})
+response = finalChain.invoke({"topic": "langGraph"})
 
 print(response)

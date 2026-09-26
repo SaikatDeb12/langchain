@@ -27,6 +27,21 @@ scikit-learn
 
 sentence-transformers
 
+# Streamlit
 streamlit
+
+# For pydantic prompt validation and output parser
 pydantic
 pydantic[email]
+
+# StructuredOutputParser -- optional
+langchain-classic
+
+# to get ascii art of a chain  -- optional
+# gradalf
+
+# For RAG 
+# langchain-community
+
+# For loading pdf
+pypdf
